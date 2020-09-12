@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: suriyadk7/jenkins-kube:latest
+        image: suriyadk7/cicd-k8s-demo:latest
         ports:
         - containerPort: 8081
 ---
